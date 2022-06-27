@@ -83,7 +83,7 @@ Usage:
 down_on_spot.exe (search_term | track_url | album_url | playlist_url | artist_url)
 ```
 On OS X, the `settings.json` file is created globally for the logged in user and is located in `~/.config/down_on_spot/settings.json`.
-On Windows. the file is most likely located in `%APPDATA%\down_on_spot`.
+On Windows, the file is most likely located in `%APPDATA%\down_on_spot`.
 
 Apart from your Spotify username and password, you will need to login in to the Spotify developer dashboard and [create a new private application](https://developer.spotify.com/dashboard/applications). Fill in the `client_id` and `client_secret` in your `settings.json` from your newly created app.
 All the other settings should be self-explanatory, conversion from Ogg to MP3 is disabled by default.
